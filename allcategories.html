@@ -5,31 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Items</title>
     <style>
+        *{
+            text-decoration: none;
+        }
         #rae{
-            color: orange;
+            color: orangered;
+            display: flex;
+            flex-direction: row;
+            column-gap: 50px;
+            justify-content: center;
+
+
+        }
+
+        #rae button a{
+        color: orangered;
+        }
+        .box{
+            width: 350px;
+            padding:50px ;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border: 1px solid red;
         }
     </style>
 </head>
 <body style="background-color: white">
     <div>
-        <a style="color: orange;" href="index.html">Home</a><br>
+        
        
     </div>
     <div id="rae">
     <br>
     <br>
-    <br>
+    <button type="button" id="submit"><a href="index.html">Home</a><br></button>
     <button type="button" id="submit"><a href="topranking.html">TOP RANKING</a></button>
     <button type="button" id="submit"><a href="newarrivals.html">NEW ARRIVALS</a></button>
     <button type="button" id="submit"><a href="topdeals.html">TOP DEALS</a></button>
     <br>
     <br>
 </div>
+<br>
+<br>
+<br>
+
     <img src="images/jude.jpg" alt="image loading...." width="35%" height="35%">
     <img src="images/madrid2.jpg" alt="image loading...."  width="35%" height="35%">
     <img src="images/shopping.webp" alt="image loading...."  width="35%" height="35%">
     <img src="images/madrid3.webp" alt="image loading...."  width="35%" height="35%">
-    <img src="images/mbappe.jpg" alt="image loading...."  width="35%" height="35%">
+    <img src="images/mbappe.jpg" alt="image loading...."  >
     <br>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/jude.jpg" alt="">
+        </div>
+        <h1>Title of image</h1>
+        <p>Briefling explain image</p>
+    </div>
 </body>
 </html>
